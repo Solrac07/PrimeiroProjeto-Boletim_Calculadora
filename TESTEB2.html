@@ -1,0 +1,41 @@
+<h1>BOLETIM BIMESTRAL</h1>
+
+<script>
+var nome = prompt("Por favor digite seu nome");
+
+alert("Seja Bem-Vindo ao seu Boletim Sr(a) " + nome);
+
+var N1 = prompt("Digite sua Primeira Nota")
+var N2 = prompt("Digite sua Segunda Nota")
+var N3 = prompt("Digite sua Terceira Nota")
+var N4 = prompt("Digite sua Quarta Nota")
+var N5 = prompt("Digite sua Quinta Nota")
+var N6 = prompt("Digite sua Sexta Nota")
+var N7 = prompt("Digite sua Sétima Nota")
+var N8 = prompt("Digite sua Oitava Nota")
+var N9 = prompt("Digite sua Nona Nota")
+
+
+var S1 = (parseFloat(N1) +
+        parseFloat(N2) +
+        parseFloat(N3) +
+        parseFloat(N4))
+
+var M1 = S1 / 4
+
+var S2 = (parseFloat(N5) +
+        parseFloat(N6))
+
+var J2 = S2 / 2
+
+var F3 = (parseFloat(N7) +
+        parseFloat(N8) +
+        parseFloat(N9))
+
+var NF = M1 + J2 + F3
+
+document.write("A sua Nota Final é " + NF + "<br>");
+    if (NF > 6) {document.write("Você passou de ano. Parabéns " + nome)}
+        else {document.write("Você ainda não passou de ano " + nome)}
+
+</script>

@@ -1,0 +1,10 @@
+aprender e dominar:
+
+1° O que é logica de programaçao? OK
+2° Inputs e Outputs OK
+3° Variaveis e Constantes
+4° Condicionais 
+5° Array, Vetores
+6° Loopings
+7° Funçoes
+8° Objetos
